@@ -5,127 +5,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <title>Portfolio</title>
+    <!-- Gustom styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+
 </head>
 
 <body>
+
     <!--header-->
     <header>
         <!--Top-Line-->
+        <!--Logo-->
         <!--Menu-Nav-->
         <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li><a href="/index.html">Studio</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
+            <a class="logo link" href="./index.html">Web<span class="logo-title">Studio</span></a>
+            <ul class="nav-page list">
+                <li><a class="nav-page-pagination link" href="./portfolio.html">Portfolio</a></li>
+                <li><a class="nav-page-pagination link" href="./index.html">Studio</a></li>
+                <li><a class="nav-page-pagination link" href="">Contacts</a></li>
             </ul>
         </nav>
         <address>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            <ul class="add-page list">
+                <li><a class="add-page-mailto link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="add-page-mailto link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
     </header>
 
     <!--main-content-->
     <main>
-        <!--Filters-->
 
         <section>
-            <h1>Portfolio</h1>
-            <ul class="">
+            <!--Filters-->
+            <h1 hidden>Portfolio</h1>
+            <ul class="btn list">
                 <li>
-                    <button class="but" type="button">All</button>
+                    <button class="btn-but-all link" type="button">All</button>
                 </li>
                 <li>
-                    <button class="but" type="button">Web Site</button>
+                    <button class="btn-but link" type="button">Web Site</button>
                 </li>
                 <li>
-                    <button class="but" type="button">App</button>
+                    <button class="btn-but link" type="button">App</button>
                 </li>
                 <li>
-                    <button class="but" type="button">Design</button>
+                    <button class="btn-but link" type="button">Design</button>
                 </li>
                 <li>
-                    <button class="but" type="button">Marketing</button>
-                </li>
-            </ul>
-        </section>
-
-        <h2>picture</h2>
-
-        <!--Row1-->
-        <section>
-            <ul>
-                <li>
-                    <img src="./images/portfolio/img1.jpg" alt="" width="360" height="300">
-                    <p>App</p>
-                    <h3>Banking App Interface Concept</h3>
-                </li>
-                <li>
-                    <img src="./images/portfolio/img2.jpg" alt="" width="360" height="300">
-                    <h3>Cashless Payment</h3>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/img3.jpg" alt="" width="360" height="300">
-                    <h3>Meditation App</h3>
-                    <p>App</p>
+                    <button class="btn-but link" type="button">Marketing</button>
                 </li>
             </ul>
-        </section>
-
-        <!--Row2-->
-        <section>
-            <ul>
+            <ul class="imag list">
+                <!--Row1-->
                 <li>
-                    <img src="./images/portfolio/img4.jpg" alt="" width="360" height="300">
-                    <h3>Taxi Service</h3>
-                    <p>Marketing</p>
+                    <a class="card link" href="">
+                        <img src="./images/portfolio/img1.jpg" alt="Banking App Interface Concept" width="360"
+                            height="300">
+                        <h2 class="card-title">Banking App Interface Concept</h2>
+                        <p class="card-text">App</p>
+                    </a>
                 </li>
                 <li>
-                    <img src="./images/portfolio/img5.jpg" alt="" width="360" height="300">
-                    <h3>Screen Illustrations</h3>
-                    <p>Design</p>
+                    <a class="card link" href="">
+                        <img src="./images/portfolio/img2.jpg" alt="Cashless Payment" width="360" height="300">
+                        <h2 class="card-title">Cashless Payment</h2>
+                        <p class="card-text">Marketing</p>
+                    </a>
                 </li>
                 <li>
-                    <img src="./images/portfolio/img6.jpg" alt="" width="360" height="300">
-                    <h3>Online Courses</h3>
-                    <p>Marketing</p>
+                    <a class="card link" href="">
+                        <img src="./images/portfolio/img3.jpg" alt="laptop" width="360" height="300">
+                        <h2 class="card-title">Meditation App</h2>
+                        <p class="card-text">App</p>
+                    </a>
+                </li>
+                <!--Row2-->
+                <li>
+                    <a class="card link" href="">
+                        <img src="./images/portfolio/img4.jpg" alt="car control panel" width="360" height="300">
+                        <h2 class="card-title">Taxi Service</h2>
+                        <p class="card-text">Marketing</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="card link" href="">
+                        <img src="./images/portfolio/img5.jpg" alt="Screen Illustrations" width="360" height="300">
+                        <h2 class="card-title">Screen Illustrations</h2>
+                        <p class="card-text">Design</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="card link" href="">
+                        <img src="./images/portfolio/img6.jpg" alt="the girl is a student" width="360" height="300">
+                        <h2 class="card-title">Online Courses</h2>
+                        <p class="card-text">Marketing</p>
+                    </a>
+                </li>
+                <!--Row3-->
+                <li>
+                    <a class="card link" href="">
+                        <img src="./images/portfolio/img7.jpg" alt="Instagram Stories Concept" width="360" height="300">
+                        <h2 class="card-title">Instagram Stories Concept</h2>
+                        <p class="card-text">Design</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="card link" href="">
+                        <img src="./images/portfolio/img8.jpg" alt="woman with a bag of vegetables" width="360"
+                            height="300">
+                        <h2 class="card-title">Organic Food</h2>
+                        <p class="card-text">Web Site</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="card link" href="">
+                        <img src="./images/portfolio/img9.jpg" alt="pouring Coffee into a cup" width="360" height="300">
+                        <h2 class="card-title">Fresh Coffee</h2>
+                        <p class="card-text">Web Site</p>
+                    </a>
                 </li>
             </ul>
+
         </section>
 
 
-        <!--Row3-->
-        <section>
-            <ul>
-                <li>
-                    <img src="./images/portfolio/img7.jpg" alt="" width="360" height="300">
-                    <h3>Instagram Stories Concept</h3>
-                    <p>Design</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/img8.jpg" alt="" width="360" height="300">
-                    <h3>Organic Food</h3>
-                    <p>Web Site</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/img9.jpg" alt="" width="360" height="300">
-                    <h3>Fresh Coffee</h3>
-                    <p>Web Site</p>
-                </li>
-            </ul>
-        </section>
     </main>
 
     <!--footer-->
-    <footer>
-        <a href="./index.html">WebStudio</a>
-        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    <footer class="footbox">
+        <a class="logo link" href="./portfolio.html">Web<span class="logo-title-fut">Studio</span></a>
+        <p class="foot-text">Increase the flow of customers and sales for your business with digital marketing & growth
+            solutions.</p>
     </footer>
 
 </body>

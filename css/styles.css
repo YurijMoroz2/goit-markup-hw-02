@@ -1,3 +1,216 @@
-.but {
-  color: #4d5ae5;
+:root {
+  --primarybrand-iris-color: #4d5ae5;
+  --pressed-state-ocean-color: #404bbf;
+  --dark-navyblue-color: #2e2f42;
+  --success-green-color: #31d0aa;
+  --text-slate-color: #434455;
+  --subtletext-lightlate-color: #8e8f99;
+  --accent-cornflower-color: #e7e9fc;
+  --light-cloud-color: #f4f4fd;
+  --modaloverlay-navybluemodal-color: #2e2f42;
+  --herobackground-grey-color: #2e2f42;
+  --whait-color: #ffffff;
+  --modalbackground-dairy-color: #fcfcfc;
+}
+/* Base styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-slate-color);
+}
+.secction {
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/*-- Base styles--*/
+
+/* Logo */
+.logo {
+  color: var(--primarybrand-iris-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16; /* 116.667% */
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.logo-title {
+  color: var(--dark-navyblue-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* Nav */
+.nav-page {
+}
+.nav-page-pagination {
+  color: var(--dark-navyblue-color);
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.nav-page-pagination:hover,
+.nav-page-pagination:focus {
+  color: var(--pressed-state-ocean-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.add-page {
+}
+.add-page-mailto {
+  color: var(--text-slate-color);
+  font-style: normal;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.add-page-mailto:hover,
+.add-page-mailto:focus {
+  color: var(--pressed-state-ocean-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/* --Nav-- */
+
+/* section-1 */
+.hero {
+  background-color: var(--dark-navyblue-color);
+}
+.hero-title {
+  color: var(--whait-color);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+}
+.hero-title-btn {
+  color: var(--whait-color);
+  background-color: var(--primarybrand-iris-color);
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+}
+.hero-title-btn:hover,
+.hero-title-btn:focus {
+  background-color: var(--pressed-state-ocean-color);
+  letter-spacing: 0.04em;
+}
+/* --section-1-- */
+
+/* section-2 */
+.benefits-ul {
+}
+.benefits-title {
+  color: var(--dark-navyblue-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.benefits-text {
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/* --section-2-- */
+
+/* section-3 */
+.subject {
+  color: var(--dark-navyblue-color);
+  font-size: 36px;
+  line-height: 1.11; /* 111.111% */
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+
+.subject-title {
+  color: var(--dark-navyblue-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.subject-text {
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/* --section-3-- */
+/* Footer */
+.footbox {
+  background-color: var(--dark-navyblue-color);
+}
+.foot-text {
+  color: var(--light-cloud-color);
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.logo-title-fut {
+  color: var(--light-cloud-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+/* --Footer-- */
+/* P */
+/* o */
+/* r */
+/* t */
+/* folio */
+
+/* Filter */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn-but-all {
+  color: var(--whait-color);
+  background-color: var(--pressed-state-ocean-color);
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+}
+.btn-but {
+  color: var(--primarybrand-iris-color);
+  background-color: var(--light-cloud-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+}
+/* --Filter-- */
+/* Images */
+.imag {
+}
+
+.card {
+  /* img */
+  background: url(4074365.jpg);
+}
+.card-title {
+  /* Banking App Interface Concept */
+  color: var(--dark-navyblue-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em;
+}
+.card-text {
+  /* App */
+  color: var(--text-slate-color);
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
 }
