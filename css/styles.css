@@ -14,7 +14,7 @@
 }
 /* Base styles */
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--text-slate-color);
   background-color: var(--whait-color);
 }
