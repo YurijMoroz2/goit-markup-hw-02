@@ -107,6 +107,7 @@ body {
 }
 .hero-title-btn:hover,
 .hero-title-btn:focus {
+  color: var(--whait-color);
   background-color: var(--pressed-state-ocean-color);
   letter-spacing: 0.04em;
 }
